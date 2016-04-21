@@ -28,14 +28,14 @@ To get started downloading and working with this dataset, you can follow the [tu
 
 ### 3. Daily light data by point
 
-[This dataset](ftp://ftp-npp.class.ngdc.noaa.gov/) consists of daily satellite images, encoding information similar to the monthly light data dataset, but in the more cumbersome HDF5 format. Light intensity data appears to only go back as far as 2016-02-01. To download the data (2GB per day), go to the `VIIRS-SDR/VIIRS-Day-Night-Band-SDR/` subdirectory for each given day and download the `tar` file corresponding to the time of interest (there appear to be 4 satellite scans per day).
+This dataset [ftp://ftp-npp.class.ngdc.noaa.gov/] consists of daily satellite images, encoding information similar to the monthly light data dataset, but in the more cumbersome HDF5 format. Light intensity data appears to only go back as far as 2016-02-01. To download the data (2GB per day), go to the `VIIRS-SDR/VIIRS-Day-Night-Band-SDR/` subdirectory for each given day and download the `tar` file corresponding to the time of interest (there appear to be 4 satellite scans per day).
 
 Because of the unusual file format of this dataset, and the relative lack of information available about it, this dataset is recommended only to teams willing to venture into uncharted data territory.
 
 ## In This Repo
 
-* `data/` – Data sources _(note that the [monthly GeoTIFF](http://ngdc.noaa.gov/eog/viirs/download_monthly.html) and [daily HDF5](ftp://ftp-npp.class.ngdc.noaa.gov/) satellite scan datasets are not included here due to their enormous size)_.
-  * `bayes_viirs_centiles.csv` – monthly light aggregate data by county.
+* `data/` – Data sources _(note that the [monthly GeoTIFF](https://github.com/bayesimpact/bayeshack-commerce-satellite#2-monthly-light-data-by-point) and [daily HDF5](https://github.com/bayesimpact/bayeshack-commerce-satellite#3-daily-light-data-by-point) satellite scan datasets are not included here due to their enormous size)_.
+  * `bayes_viirs_centiles.csv` – [monthly light aggregate data by county](https://github.com/bayesimpact/bayeshack-commerce-satellite#1-monthly-aggregate-light-data-by-county).
   * `util/` – Additional data that may be useful in your analysis (census data, county-level GeoJSON maps, etc).
 * `analysis/` – iPython exploration notebook for the monthly aggregate dataset.
 
