@@ -41,7 +41,7 @@ Because of the unusual file format of this dataset, and the relative lack of inf
 
 ## Resources
 
-* "Data Science for Nighttime Lights," an intro to processing the VIIRS dataset with R and Plotly from the Commerce Data Service.
+* "[Data Science for Nighttime Lights](http://commercedataservice.github.io/tutorial_viirs_part1/)," an intro to processing the VIIRS dataset with R and Plotly from the [Commerce Data Service](https://github.com/commercedataservice).
 * _[Evaluation of NPP-VIIRS Nighttime Light Data for Mapping Global Fossil Fuel Combustion CO2 Emissions: A Comparison with DMSP-OLS Nighttime Light Data](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4577086/)_ by Jinpei Ou, Xia Li, Meifang Li, and Wenkai Li.
 * _[Night-Time Light Data: A good Proxy Measure for Economic Activity?](http://martinprosperity.org/papers/Night-time%20LightData-Formatted.pdf)_ by Mellander et al. for Martin Prosperity Research, University of Toronto.
-* [VIIRS Nightfire data](http://ngdc.noaa.gov/eog/viirs/download_viirs_fire.html) for the detection and characterization of combustion sources *(no longer maintained)*.
+* [VIIRS Nightfire data](http://ngdc.noaa.gov/eog/viirs/download_viirs_fire.html) for the detection and characterization of combustion sources **(no longer maintained)**.
