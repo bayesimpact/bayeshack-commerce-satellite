@@ -34,8 +34,8 @@ Because of the unusual file format of this dataset, and the relative lack of inf
 
 ## In This Repo
 
-* `data/` – Data sources _(note that the [monthly GeoTIFF](https://github.com/bayesimpact/bayeshack-commerce-satellite#2-monthly-light-data-by-point) and [daily HDF5](https://github.com/bayesimpact/bayeshack-commerce-satellite#3-daily-light-data-by-point) satellite scan datasets are not included here due to their enormous size)_.
-  * `bayes_viirs_centiles.csv` – [monthly light aggregate data by county](https://github.com/bayesimpact/bayeshack-commerce-satellite#1-monthly-aggregate-light-data-by-county).
+* `data/` – Data sources _(note that the [monthly GeoTIFF](#2-monthly-light-data-by-point) and [daily HDF5](#3-daily-light-data-by-point) satellite scan datasets are not included here due to their enormous size)_.
+  * `bayes_viirs_centiles.csv` – [monthly light aggregate data by county](#1-monthly-aggregate-light-data-by-county).
   * `util/` – Additional data that may be useful in your analysis (census data, county-level GeoJSON maps, etc).
 * `analysis/` – iPython exploration notebook for the monthly aggregate dataset.
 
